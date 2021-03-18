@@ -2,6 +2,9 @@ import 'dart:async';
 import 'package:eduka/controllers/question_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:eduka/constants.dart';
+
+import '../../constants.dart';
 import '../../home.dart';
 
  class ScoreScreen extends StatefulWidget {
@@ -55,11 +58,11 @@ class _ScoreScreenState extends State<ScoreScreen> {
               ),
               SizedBox(height: 20.0,),
               Text(
-                "${_qnController.correctAns * 5}/${_qnController.questions.length * 5}",
+                "${_qnController.correctAns}/${_qnController.questions.length }",
                 style: Theme.of(context)
                     .textTheme
                     .headline4
-                    .copyWith(color: Colors.white),
+                    .copyWith(color: kSecondaryColor),
               ),
               Text(
                 "score kamu",
