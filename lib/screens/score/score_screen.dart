@@ -72,7 +72,7 @@ class _ScoreScreenState extends State<ScoreScreen> {
               Spacer(),
               SizedBox(height: 80.0,),
               Container(
-                width: 350,
+                width: 320,
                 height: 55,
                 child: RaisedButton(
                   shape: RoundedRectangleBorder(
