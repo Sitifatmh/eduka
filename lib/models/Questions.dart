@@ -88,8 +88,8 @@ const List sample_data = [
   },
   {
     "id": 14,
-    "question": "Point yang diperoleh pada saat seorang pemain basket berhasil memasukkan bola ke dalam ring yang diawali dengan gerakan melangkahkan kaki dua kali lalu melompat sambil melempar bola ke dalam ring adalah ...",
-    "options": ['1 poin', '2 poin', '3 poin', '4 poin'],
+    "question": " Dalam permainan bola basket, teknik yang digunakan untuk mengoper bola jarak jauh yaitu .",
+    "options": ['Chest pass', 'Overhead pass', 'Side pass', 'Jeveline pass'],
     "answer_index": 1,
   },
   {
