@@ -2,9 +2,6 @@ import 'dart:async';
 import 'package:eduka/controllers/question_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:eduka/constants.dart';
-
-import '../../constants.dart';
 import '../../home.dart';
 
  class ScoreScreen extends StatefulWidget {
