@@ -58,11 +58,11 @@ class _ScoreScreenState extends State<ScoreScreen> {
               ),
               SizedBox(height: 20.0,),
               Text(
-                "${_qnController.correctAns}/${_qnController.questions.length }",
+                "${_qnController.correctAns * 5}/${_qnController.questions.length * 5}",
                 style: Theme.of(context)
                     .textTheme
                     .headline4
-                    .copyWith(color: kSecondaryColor),
+                    .copyWith(color: Colors.white),
               ),
               Text(
                 "score kamu",
