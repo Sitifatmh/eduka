@@ -1,8 +1,6 @@
 import 'package:eduka/controllers/question_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:eduka/controllers/question_controller.dart';
-
 import 'components/body.dart';
 
 class QuizScreen extends StatelessWidget {

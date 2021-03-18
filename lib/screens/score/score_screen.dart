@@ -20,7 +20,7 @@ class _ScoreScreenState extends State<ScoreScreen> {
   }
 
   scorescreenStart() async{
-    var duration = const Duration(seconds: 10);
+    var duration = const Duration(seconds: 25);
     return Timer(duration, (){
       Navigator.push(
         context,
@@ -58,11 +58,11 @@ class _ScoreScreenState extends State<ScoreScreen> {
               ),
               SizedBox(height: 20.0,),
               Text(
-                "${_qnController.correctAns}/${_qnController.questions.length }",
+                "${_qnController.correctAns * 5}/${_qnController.questions.length * 5 }",
                 style: Theme.of(context)
                     .textTheme
                     .headline4
-                    .copyWith(color: kSecondaryColor),
+                    .copyWith(color: Colors.white),
               ),
               Text(
                 "score kamu",
@@ -72,7 +72,7 @@ class _ScoreScreenState extends State<ScoreScreen> {
                     .copyWith(color: Colors.white),
               ),
               Spacer(),
-              SizedBox(height: 40.0,),
+              SizedBox(height: 80.0,),
               Container(
                 width: 350,
                 height: 55,
