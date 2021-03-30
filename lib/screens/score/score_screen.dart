@@ -56,7 +56,7 @@ class _ScoreScreenState extends State<ScoreScreen> {
               ),
               SizedBox(height: 20.0,),
               Text(
-                "${_qnController.correctAns * 5}/${_qnController.questions.length * 5 }",
+                "${_qnController.correctAns*5 }/${_qnController.questions.length*5  }",
                 style: Theme.of(context)
                     .textTheme
                     .headline4
@@ -83,7 +83,6 @@ class _ScoreScreenState extends State<ScoreScreen> {
                       MaterialPageRoute(
                         builder: (context){
                           return Home();
-
                         },
                       ),
                     );

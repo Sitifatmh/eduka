@@ -48,6 +48,7 @@ class Basket extends StatelessWidget {
                         Text('Permainan bola basket adalah salah satu cabang olahraga yang dimainkan oleh dua tim yang mana setiap tim berisi lima orang pemain. Cara bermain bola basket pun bisa dibilang cukup mudah, yaitu dengan mencari point sebanyak mungkin dengan cara memasukkan bola ke ring (keranjang) lawan.',style: TextStyle(fontSize: 15, fontWeight: FontWeight.normal),textAlign: TextAlign.justify, ),
                         SizedBox(height: 8,),
                         Text('Teknik Dasar Memegang Bola Basket ', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, ), textAlign: TextAlign.justify,),
+                        Text(' Basket ', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, ), textAlign: TextAlign.justify,),
                         SizedBox(height: 5,),
                         Text('Berikut teknik dasar memegang bola basket yang baik dan benar:', style: TextStyle(fontSize: 15, fontWeight: FontWeight.normal, ), textAlign: TextAlign.justify,),
                         SizedBox(height: 5,),
