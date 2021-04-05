@@ -2,7 +2,9 @@ import 'dart:async';
 import 'package:eduka/controllers/question_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:eduka/constants.dart';
 
+import '../../constants.dart';
 import '../../home.dart';
 
  class ScoreScreen extends StatefulWidget {
@@ -18,7 +20,7 @@ class _ScoreScreenState extends State<ScoreScreen> {
   }
 
   scorescreenStart() async{
-    var duration = const Duration(seconds: 25);
+    var duration = const Duration(seconds: 10);
     return Timer(duration, (){
       Navigator.push(
         context,
@@ -56,11 +58,11 @@ class _ScoreScreenState extends State<ScoreScreen> {
               ),
               SizedBox(height: 20.0,),
               Text(
-                "${_qnController.correctAns * 5 }/${_qnController.questions.length * 5  }",
+                "${_qnController.correctAns*5}/${_qnController.questions.length*5 }",
                 style: Theme.of(context)
                     .textTheme
                     .headline4
-                    .copyWith(color: Colors.white),
+                    .copyWith(color:Colors.white),
               ),
               Text(
                 "score kamu",
@@ -70,9 +72,9 @@ class _ScoreScreenState extends State<ScoreScreen> {
                     .copyWith(color: Colors.white),
               ),
               Spacer(),
-              SizedBox(height: 80.0,),
+              SizedBox(height: 40.0,),
               Container(
-                width: 320,
+                width: 350,
                 height: 55,
                 child: RaisedButton(
                   shape: RoundedRectangleBorder(
@@ -83,6 +85,7 @@ class _ScoreScreenState extends State<ScoreScreen> {
                       MaterialPageRoute(
                         builder: (context){
                           return Home();
+
                         },
                       ),
                     );
